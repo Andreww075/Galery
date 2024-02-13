@@ -1,0 +1,38 @@
+body{ 
+  font-family: sans-serif; 
+  width: 450px; 
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+#galeria{ 
+  width: 400px;
+}
+
+nav {
+  transform: translateX(-2.5rem);
+}
+
+nav ul{ 
+  list-style:none; 
+  padding-left: 0; 
+  display:flex;
+}
+
+nav ul li a img{
+  width: 100px;
+  opacity:50%;
+  transition:0.3s;
+  filter:grayscale(50%);
+}
+ 
+nav ul li a img:hover { 
+  opacity:100%;  
+  margin-top:-5px;  
+  filter:grayscale(0%);
+  box-shadow: 0 4px 8px rgba(0,0,0,.3)
+}
+
+nav ul li a img:active{
+  transform:scale(0.8)}
+}
